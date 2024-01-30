@@ -307,7 +307,7 @@ class Map {
         const markerElement = document.createElement("div");
         markerElement.className = "map__marker";
         markerElement.innerHTML = `
-          <img src="/map-marker.svg" alt="" >
+          <img src="./map-marker.svg" alt="" >
         `;
         markerElement.onclick = () => {
           _this.markers.forEach((marker) => {
@@ -330,9 +330,9 @@ class Map {
         element.innerHTML = `
           <div class="map__popup-top">
             <svg class="map__popup-close" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
-                <path d="M21 1L10.9998 11.2703M10.9998 11.2703L1.52632 20.9996M10.9998 11.2703L20.4737 21M10.9998 11.2703L1 1.00035" stroke="#B4CAD4" stroke-width="2"/>
+                <path d="M21 1L10.9998 11.2703M10.9998 11.2703L1.52632 20.9996M10.9998 11.2703L20.4737 21M10.9998 11.2703L1 1.00035" stroke="#B4CAD4" stroke-width="2"./>
             </svg>
-            <img src="/map-logo.svg" alt="">
+            <img src="./map-logo.svg" alt="">
           </div>
           <div class="map__popup-content">
             <h3 class="map__popup-name">${this.markerData.dealerName}</h3>           

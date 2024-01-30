@@ -1,15 +1,15 @@
 @font-face {
   font-family: "TT Runs";
-  src: url("/fonts/TT_Runs_Regular.eot");
-  src: url("/fonts/TT_Runs_Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/TT_Runs_Regular.woff2") format("woff2"), url("/fonts/TT_Runs_Regular.woff") format("woff"), url("/fonts/TT_Runs_Regular.ttf") format("truetype");
+  src: url("./fonts/TT_Runs_Regular.eot");
+  src: url("./fonts/TT_Runs_Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/TT_Runs_Regular.woff2") format("woff2"), url("./fonts/TT_Runs_Regular.woff") format("woff"), url("./fonts/TT_Runs_Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "TT Runs";
-  src: url("/fonts/TT_Runs_DemiBold.eot");
-  src: url("/fonts/TT_Runs_DemiBold.eot?#iefix") format("embedded-opentype"), url("/fonts/TT_Runs_DemiBold.woff2") format("woff2"), url("/fonts/TT_Runs_DemiBold.woff") format("woff"), url("/fonts/TT_Runs_DemiBold.ttf") format("truetype");
+  src: url("./fonts/TT_Runs_DemiBold.eot");
+  src: url("./fonts/TT_Runs_DemiBold.eot?#iefix") format("embedded-opentype"), url("./fonts/TT_Runs_DemiBold.woff2") format("woff2"), url("./fonts/TT_Runs_DemiBold.woff") format("woff"), url("./fonts/TT_Runs_DemiBold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -1226,7 +1226,7 @@
 .form-section {
   padding-top: 9.375vw;
   padding-bottom: 9.375vw;
-  background: url("/form-bg.png") center no-repeat;
+  background: url("./form-bg.png") center no-repeat;
   background-size: cover;
 }
 @media (max-width: 767px) {
