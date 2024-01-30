@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="icon" type="image/svg+xml" href="footer-logo.svg"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WEY</title>
+  <script type="module" crossorigin src="/assets/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/swiper.js">
+  <link rel="modulepreload" crossorigin href="/assets/gsap.js">
+  <link rel="stylesheet" crossorigin href="/assets/swiper.css">
+  <link rel="stylesheet" crossorigin href="/assets/index.css">
+</head>
+<body>
+
+<header class="header" data-header>
+  <div class="header__inner">
+<!--    <div class="header-address" data-header-address-button>-->
+    <div class="header-address">
+      <img class="name-image" src="/map.svg" alt="">
+      <!--      <div class="name-button">-->
+      <!--        Адреса салонов-->
+      <!--      </div>-->
+      <div class="name">
+        <span>Адрес</span>
+        <a href="tel:+7 495 123-45-67">+7 495 123-45-67</a>
+      </div>
+    </div>
+    <div class="header-burger" data-header-burger>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="header-menu">
+      <li class="link" data-scroll-from="block1">О модели</li>
+      <li class="link" data-scroll-from="block2">О бренде</li>
+      <li class="link" data-scroll-from="block3">Новости</li>
+    </ul>
+    <div class="header-info">
+      <div class="info-name">
+        Автосалон
+      </div>
+      <img class="info-divided" src="/divided.svg" alt="">
+      <div class="info-logo">
+        <img src="/header-logo.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="header-mobile-menu" data-header-menu>
+    <ul class="header-mobile-menu__list">
+      <li class="link" data-scroll-from="block1">О модели</li>
+      <li class="link" data-scroll-from="block2">О бренде</li>
+      <li class="link" data-scroll-from="block3">Новости</li>
+    </ul>
+    <div class="header-mobile-menu__address">
+      <div class="address-title">Адрес салона</div>
+      <div class="address-mobile-list">
+        <div class="address-mobile-list__item">
+          <div class="content">
+            <div class="name">Адрес</div>
+            <a class="phone" href="tel:+79999999999">+7 999 999 99 99</a>
+          </div>
+        </div>
+<!--        <div class="address-mobile-list__item">-->
+<!--          <div class="content">-->
+<!--            <div class="dealer">Название дилера</div>-->
+<!--            <div class="name">Адрес</div>-->
+<!--            <a class="phone" href="tel:+79999999999">+7 999 999 99 99</a>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--        <div class="address-mobile-list__item">-->
+<!--          <div class="content">-->
+<!--            <div class="dealer">Название дилера</div>-->
+<!--            <div class="name">Адрес</div>-->
+<!--            <a class="phone" href="tel:+79999999999">+7 999 999 99 99</a>-->
+<!--          </div>-->
+<!--        </div>-->
+      </div>
+    </div>
+  </div>
+  <div class="header-list-address" data-header-address>
+    <div class="address-title">
+      Адреса салонов
+    </div>
+    <div class="address-list">
+      <div class="address-list__item">
+        <div class="content">
+          <div class="dealer">Название дилера</div>
+          <div class="name">Адрес</div>
+          <a class="phone" href="tel:+79999999999">+7 999 999 99 99</a>
+        </div>
+      </div>
+      <div class="address-list__item">
+        <div class="content">
+          <div class="dealer">Название дилера</div>
+          <div class="name">Адрес</div>
+          <a class="phone" href="tel:+79999999999">+7 999 999 99 99</a>
+        </div>
+      </div>
+      <div class="address-list__item">
+        <div class="content">
+          <div class="dealer">Название дилера</div>
+          <div class="name">Адрес</div>
+          <a class="phone" href="tel:+79999999999">+7 999 999 99 99</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="intro-banner">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="intro-banner-item">
+          <img class="intro-banner-background" srcset="/intro-1-mob.png 767w, /intro-1.png " alt="">
+          <div class="container">
+            <h2 class="intro-title">WEY 05</h2>
+            <div class="intro-text">Эстетика нового времени</div>
+            <div class="intro-price">X XXX XXX ₽*</div>
+            <button class="intro-button button" data-scroll-from="preorder">Предзаказать</button>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="intro-banner-item">
+          <img class="intro-banner-background" srcset="/intro-2-mob.png 767w, /intro-2.png " alt="">
+          <div class="container">
+            <h2 class="intro-title">WEY 05</h2>
+            <div class="intro-text">Эстетика нового времени</div>
+            <div class="intro-price">X XXX XXX ₽*</div>
+            <button class="intro-button button" data-scroll-from="preorder">Предзаказать</button>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="intro-banner-item">
+          <img class="intro-banner-background" srcset="/intro-3-mob.png 767w, /intro-3.png " alt="">
+          <div class="container">
+            <h2 class="intro-title">WEY 05</h2>
+            <div class="intro-text">Эстетика нового времени</div>
+            <div class="intro-price">X XXX XXX ₽*</div>
+            <button class="intro-button button" data-scroll-from="preorder">Предзаказать</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-prev">
+      <img src="/arrow-left.svg" alt="">
+    </div>
+    <div class="swiper-button-next">
+      <img src="/arrow-right.svg" alt="">
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<section class="block-scroll">
+  <div class="text-scroll">
+    Движущая сила идей
+  </div>
+</section>
+
+<section class="info-block">
+  <div class="container">
+    <div class="info-block__inner">
+      <h3 class="info-title">
+        О бренде
+      </h3>
+      <div class="info-text">
+        WEY — китайская марка современных премиальных внедорожников и кроссоверов, входящая в автоконцерн Great Wall
+        Motor. Бренд WEY был основан в 2016 году и назван в честь Председателя и основателя GWM Джека Вэя.
+      </div>
+    </div>
+  </div>
+  <img class="info-img" src="/info-1.png" alt="">
+</section>
+
+<section class="tabs">
+  <div class="tabs__inner" data-tabs="1">
+    <div class="tabs-control-wrapper">
+      <div class="tabs-control" data-tabs-header="1">
+        <div class="tabs-control__button button-active" data-tabs-control="11">Экстерьер</div>
+        <div class="tabs-control__button" data-tabs-control="12">Интерьер</div>
+        <div class="tabs-control__button" data-tabs-control="13">Панорамная крыша</div>
+        <div class="tabs-control__button" data-tabs-control="14">Управление</div>
+        <div class="tabs-control__button" data-tabs-control="15">Гибридная установка</div>
+      </div>
+    </div>
+    <div class="tabs-content" data-tabs-block="1">
+      <div class="tabs-content__block block-active" data-tabs-content="11">
+        <div class="block-content">
+          <div class="title">
+            Экстерьер
+          </div>
+          <div class="text">
+            Элегантный, современный и технологичный — так можно описать силуэт автомобиля, в каждой детали которого
+            чувствуется продуманность. Скрытые дверные ручки и стремительные боковые линии кузова подчеркивают
+            динамичность образа. Каждый из 6 цветов по-своему подчеркивает утончённость автомобиля
+          </div>
+          <div class="block-auto" data-tabs="2">
+            <div data-tabs-block="2">
+              <img data-tabs-content="21" class="block-image auto-image block-active" src="/wey_colors_white.png"
+                   alt="">
+              <img data-tabs-content="22" class="block-image auto-image" src="/wey_colors_silvermet.png" alt="">
+              <img data-tabs-content="23" class="block-image auto-image" src="/wey_colors_khakimet.png" alt="">
+              <img data-tabs-content="24" class="block-image auto-image" src="/wey_colors_blue.png" alt="">
+              <img data-tabs-content="25" class="block-image auto-image" src="/wey_colors_bluemet.png" alt="">
+              <img data-tabs-content="26" class="block-image auto-image" src="/wey_colors_black.png" alt="">
+            </div>
+            <div class="auto-switch" data-tabs-header="2">
+              <div class="auto-switch__button button-active" data-tabs-control="21">
+                <img src="/color-1.png" alt="">
+              </div>
+              <div class="auto-switch__button" data-tabs-control="22">
+                <img src="/color-2.png" alt="">
+              </div>
+              <div class="auto-switch__button" data-tabs-control="23">
+                <img src="/color-3.png" alt="">
+              </div>
+              <div class="auto-switch__button" data-tabs-control="24">
+                <img src="/color-4.png" alt="">
+              </div>
+              <div class="auto-switch__button" data-tabs-control="25">
+                <img src="/color-5.png" alt="">
+              </div>
+              <div class="auto-switch__button" data-tabs-control="26">
+                <img src="/color-6.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tabs-content__block" data-tabs-content="12">
+        <div class="block-content">
+          <div class="title">
+            Интерьер
+          </div>
+          <div class="text">
+            В каждой детали чувствуется безупречность и комфорт — от натуральных материалов отделки салона в трёх
+            вариантах исполнения до передовых мультимедийных технологий
+          </div>
+        </div>
+        <img class="block-image" src="/tabs-2.png" alt="">
+      </div>
+      <div class="tabs-content__block" data-tabs-content="13">
+        <div class="block-content">
+          <div class="title">
+            Панорамная крыша
+          </div>
+          <div class="text">
+            Одним касанием легко добавить ощущение простора в автомобиль.
+            Больше света — больше наслаждения каждым моментом, проведённым
+            в изысканном салоне вашего WEY
+          </div>
+        </div>
+        <img class="block-image" src="/tabs-3.png" alt="">
+      </div>
+      <div class="tabs-content__block" data-tabs-content="14">
+        <div class="block-content">
+          <div class="title">
+            Интеллектуальное управление
+          </div>
+          <div class="text">
+            Технологии на кончиках пальцев — управляйте интеллектуальными системами автомобиля на трех дисплеях высокого
+            разрешения: 14.6”, 9.2” и 9” дюймов. Технологичный 3D-проекционный дисплей отражается на лобовое стекло
+          </div>
+        </div>
+        <img class="block-image" src="/tabs-4.png" alt="">
+      </div>
+      <div class="tabs-content__block" data-tabs-content="15">
+        <div class="block-content">
+          <div class="title">
+            Гибридная установка
+          </div>
+          <div class="text">
+            146 километров ваш автомобиль может преодолеть только на электрической тяге. Всего 53 минуты для зарядки 80%
+            емкости аккумулятора, чтобы вы могли сочетать мощь бензинового и экономичность электрического двигателей
+          </div>
+        </div>
+        <img class="block-image" src="/tabs-5.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="links">
+  <div class="links__inner">
+    <a href="" target="_blank" type="application/pdf">скачать прайс-лист</a>
+    <a href="" target="_blank" type="application/pdf">скачать каталог</a>
+  </div>
+</section>
+
+<section class="test-drive form-section" data-scroll-to="block1">
+  <div class="container">
+    <div class="form-section__inner">
+      <div class="form-wrapper">
+        <h3 class="title-form">
+          Запишитесь на тест-драйв
+        </h3>
+        <div class="form-warning">
+          * Обязательные поля
+        </div>
+        <form action="" class="form">
+          <div class="form-row">
+            <input class="input" type="text" placeholder="Имя*" required>
+            <input class="input" type="text" placeholder="Фамилия*" required>
+          </div>
+          <div class="form-row">
+            <input class="input" type="number" placeholder="Телефон*" required>
+            <input class="input" type="email" placeholder="Email*" required>
+          </div>
+          <label class="checkbox">
+            <span class="text">Я ознакомлен с <a href="">Пользовательским соглашением</a></span>
+            <input type="checkbox" required>
+            <span class="checkmark"></span>
+          </label>
+          <label class="checkbox">
+            <span class="text">Я даю <a href="">согласие</a> на обработку персональных данных; <a
+              href="">предоставление</a> персональных данных третьим лицам и коммуникацию; ознакомлен с <a
+              href="">политикой</a> конфиденциальности</span>
+            <input type="checkbox" required>
+            <span class="checkmark"></span>
+          </label>
+          <button class="button">отправить</button>
+        </form>
+      </div>
+      <div class="form-image">
+        <img src="/form.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="info-block" data-scroll-to="about-dealer">
+  <div class="container">
+    <div class="info-block__inner">
+      <h3 class="info-title">
+        О дилере
+      </h3>
+      <div class="info-text">
+        Текст о дилере
+      </div>
+    </div>
+  </div>
+  <img class="info-img" src="/info-2.png" alt="">
+</section>
+
+<section class="team">
+  <div class="container">
+    <div class="team__inner">
+      <h2 class="team-title">Наша команда</h2>
+      <div class="team-text">
+        WEY — китайская марка современных премиальных внедорожников и кроссоверов, входящая в автоконцерн Great Wall
+        Motor. Бренд WEY был основан в 2016 году и назван в честь Председателя и основателя GWM Джека Вэя.
+      </div>
+      <div class="team-list">
+        <div class="team-item">
+          <div class="team-item__image">
+            <img src="/avatar.png" alt="">
+          </div>
+          <div class="team-item__info">
+            <div class="name">Иванов Константин</div>
+            <div class="profession">Руководитель отдела корпоративных продаж</div>
+            <div class="info phone">
+              <img src="/phone.svg" alt="">
+              <a href="tel:7 999 999 99 99">+7 999 999 99 99</a>
+            </div>
+            <div class="info mail">
+              <img src="/mail.svg" alt="">
+              <a href="mailto:ivanov-l@tankdealer.ru">ivanov-l@tankdealer.ru</a>
+            </div>
+          </div>
+        </div>
+        <div class="team-item">
+          <div class="team-item__image">
+            <img src="/avatar.png" alt="">
+          </div>
+          <div class="team-item__info">
+            <div class="name">Иванов Константин</div>
+            <div class="profession">Директор</div>
+            <div class="info phone">
+              <img src="/phone.svg" alt="">
+              <a href="tel:7 999 999 99 99">+7 999 999 99 99</a>
+            </div>
+            <div class="info mail">
+              <img src="/mail.svg" alt="">
+              <a href="mailto:ivanov-l@tankdealer.ru">ivanov-l@tankdealer.ru</a>
+            </div>
+          </div>
+        </div>
+        <div class="team-item">
+          <div class="team-item__image">
+            <img src="/avatar.png" alt="">
+          </div>
+          <div class="team-item__info">
+            <div class="name">Иванов Константин</div>
+            <div class="profession">Директор</div>
+            <div class="info phone">
+              <img src="/phone.svg" alt="">
+              <a href="tel:7 999 999 99 99">+7 999 999 99 99</a>
+            </div>
+            <div class="info mail">
+              <img src="/mail.svg" alt="">
+              <a href="mailto:ivanov-l@tankdealer.ru">ivanov-l@tankdealer.ru</a>
+            </div>
+          </div>
+        </div>
+        <div class="team-item">
+          <div class="team-item__image">
+            <img src="/avatar.png" alt="">
+          </div>
+          <div class="team-item__info">
+            <div class="name">Иванов Константин</div>
+            <div class="profession">Директор</div>
+            <div class="info phone">
+              <img src="/phone.svg" alt="">
+              <a href="tel:7 999 999 99 99">+7 999 999 99 99</a>
+            </div>
+            <div class="info mail">
+              <img src="/mail.svg" alt="">
+              <a href="mailto:ivanov-l@tankdealer.ru">ivanov-l@tankdealer.ru</a>
+            </div>
+          </div>
+        </div>
+        <div class="team-item hidden">
+          <div class="team-item__image">
+            <img src="/avatar.png" alt="">
+          </div>
+          <div class="team-item__info">
+            <div class="name">Иванов Константин</div>
+            <div class="profession">Директор</div>
+            <div class="info phone">
+              <img src="/phone.svg" alt="">
+              <a href="tel:7 999 999 99 99">+7 999 999 99 99</a>
+            </div>
+            <div class="info mail">
+              <img src="/mail.svg" alt="">
+              <a href="mailto:ivanov-l@tankdealer.ru">ivanov-l@tankdealer.ru</a>
+            </div>
+          </div>
+        </div>
+        <div class="team-item hidden">
+          <div class="team-item__image">
+            <img src="/avatar.png" alt="">
+          </div>
+          <div class="team-item__info">
+            <div class="name">Иванов Константин</div>
+            <div class="profession">Директор</div>
+            <div class="info phone">
+              <img src="/phone.svg" alt="">
+              <a href="tel:7 999 999 99 99">+7 999 999 99 99</a>
+            </div>
+            <div class="info mail">
+              <img src="/mail.svg" alt="">
+              <a href="mailto:ivanov-l@tankdealer.ru">ivanov-l@tankdealer.ru</a>
+            </div>
+          </div>
+        </div>
+        <div class="team-item hidden">
+          <div class="team-item__image">
+            <img src="/avatar.png" alt="">
+          </div>
+          <div class="team-item__info">
+            <div class="name">Иванов Константин</div>
+            <div class="profession">Директор</div>
+            <div class="info phone">
+              <img src="/phone.svg" alt="">
+              <a href="tel:7 999 999 99 99">+7 999 999 99 99</a>
+            </div>
+            <div class="info mail">
+              <img src="/mail.svg" alt="">
+              <a href="mailto:ivanov-l@tankdealer.ru">ivanov-l@tankdealer.ru</a>
+            </div>
+          </div>
+        </div>
+        <div class="team-item hidden">
+          <div class="team-item__image">
+            <img src="/avatar.png" alt="">
+          </div>
+          <div class="team-item__info">
+            <div class="name">Иванов Константин</div>
+            <div class="profession">Директор</div>
+            <div class="info phone">
+              <img src="/phone.svg" alt="">
+              <a href="tel:7 999 999 99 99">+7 999 999 99 99</a>
+            </div>
+            <div class="info mail">
+              <img src="/mail.svg" alt="">
+              <a href="mailto:ivanov-l@tankdealer.ru">ivanov-l@tankdealer.ru</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="team-button">
+        <button class="button">Показать всех</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="map" id="map"></section>
+
+<section class="disclaimer">
+  <div class="container">
+    <div class="disclaimer-item">
+      <span>*</span>
+      <span>Дисклеймер 1</span>
+    </div>
+    <div class="disclaimer-item">
+      <span>**</span>
+      <span>Дисклеймер 2</span>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer-block">
+        <div class="block-social">
+          <a class="social-link" href="">
+            <img src="/tg.svg" alt="telegram">
+          </a>
+          <a class="social-link" href="">
+            <img src="/vk.svg" alt="vkontakte">
+          </a>
+          <a class="social-link" href="">
+            <img src="/youtube.svg" alt="youtube">
+          </a>
+        </div>
+        <div class="footer-links">
+          <a class="footer-link" href="">Пользовательское соглашение</a>
+          <a class="footer-link" href="">Политика конфиденциальности</a>
+          <a class="footer-link" href="">Согласие на обработку персональных данных</a>
+        </div>
+      </div>
+      <img class="footer-image" src="/footer-logo.svg" alt="">
+      <div class="footer-block">
+        <div class="footer-text">Получите информацию о бренде и моделях WEY</div>
+        <a class="footer-number" href="tel:8 999 999 99 99">8 999 999 99 99</a>
+        <div class="footer-copyright">© ООО «Хавейл Мотор Рус»</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="popup-cookie">
+  <p>
+    Для улучшения работы сайта и взаимодействия с пользователями сайта мы используем файлы cookie. Продолжая работу с
+    сайтом, вы разрешаете использование cookie-файлов. Обработка вашей персональной информации на нашем сайте
+    осуществляется в соответствии с политикой конфиденциальности. Вы всегда можете отключить файлы cookie в настройках
+    вашего браузера. Если файлы cookie отключены, это может означать, что вы не можете в полной мере использовать все
+    функции нашего сайта.
+  </p>
+  <button class="button">принять</button>
+</div>
+
+<div class="widget" data-widget>
+  <div class="widget-button widget-button--white" data-widget-button>
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+      <path
+        d="M13.0497 5C14.0264 5.19057 14.924 5.66826 15.6277 6.37194C16.3314 7.07561 16.8091 7.97326 16.9997 8.95M13.0497 1C15.0789 1.22544 16.9713 2.13417 18.4159 3.57701C19.8606 5.01984 20.7717 6.91101 20.9997 8.94M9.22664 12.8631C8.02506 11.6615 7.07627 10.3028 6.38028 8.85323C6.32041 8.72854 6.29048 8.66619 6.26748 8.5873C6.18576 8.30695 6.24446 7.96269 6.41447 7.72526C6.46231 7.65845 6.51947 7.60129 6.63378 7.48698C6.98338 7.13737 7.15819 6.96257 7.27247 6.78679C7.70347 6.1239 7.70347 5.26932 7.27247 4.60643C7.15819 4.43065 6.98338 4.25585 6.63378 3.90624L6.43891 3.71137C5.90747 3.17993 5.64174 2.91421 5.35636 2.76987C4.7888 2.4828 4.11854 2.4828 3.55098 2.76987C3.2656 2.91421 2.99987 3.17993 2.46843 3.71137L2.3108 3.86901C1.78117 4.39863 1.51636 4.66344 1.31411 5.02348C1.08969 5.42298 0.928332 6.04347 0.929696 6.5017C0.930924 6.91464 1.01103 7.19687 1.17124 7.76131C2.03221 10.7947 3.65668 13.6571 6.04466 16.045C8.43264 18.433 11.295 20.0575 14.3284 20.9185C14.8928 21.0787 15.1751 21.1588 15.588 21.16C16.0462 21.1614 16.6667 21 17.0662 20.7756C17.4263 20.5733 17.6911 20.3085 18.2207 19.7789L18.3783 19.6213C18.9098 19.0898 19.1755 18.8241 19.3198 18.5387C19.6069 17.9712 19.6069 17.3009 19.3198 16.7333C19.1755 16.448 18.9098 16.1822 18.3783 15.6508L18.1835 15.4559C17.8339 15.1063 17.6591 14.9315 17.4833 14.8172C16.8204 14.3862 15.9658 14.3862 15.3029 14.8172C15.1271 14.9315 14.9523 15.1063 14.6027 15.4559C14.4884 15.5702 14.4313 15.6274 14.3644 15.6752C14.127 15.8453 13.7828 15.904 13.5024 15.8222C13.4235 15.7992 13.3612 15.7693 13.2365 15.7094C11.7869 15.0134 10.4282 14.0646 9.22664 12.8631Z"
+        stroke-width="1.66667" stroke-linecap="square"/>
+    </svg>
+  </div>
+
+  <div class="widget-form widget-form--white" data-widget-form>
+    <div class="widget-close" data-widget-close>
+      <img src="/close.svg" alt="">
+    </div>
+    <div class="widget-form__inner">
+      <div class="widget-form__content">
+        <div class="widget-title">
+          Обратный звонок
+        </div>
+        <div class="widget-subtitle">
+          Оставьте свой номер, и мы перезвоним вам
+        </div>
+        <form action="" class="form">
+          <input class="input" type="text" placeholder="Имя*" required>
+          <input class="input" type="text" placeholder="Фамилия*" required>
+          <input class="input" type="number" placeholder="Телефон*" required>
+          <input class="input" type="email" placeholder="E-mail*" required>
+          <div class="tabs-time" data-tabs="3">
+            <div class="tabs-time__header" data-tabs-header="3">
+              <div class="control button-active" data-tabs-control="31">Перезвонить сейчас</div>
+              <div class="control" data-tabs-control="32">Выбрать время</div>
+            </div>
+            <div class="tabs-time__content" data-tabs-block="3">
+              <div class="content block-active" data-tabs-content="31"></div>
+              <div class="content mt" data-tabs-content="32">
+                <input type="number" name="masknumber" data-timepicker placeholder="00:00">
+                <input type="number" data-timepicker-number placeholder="00:00" style="display:none;">
+              </div>
+            </div>
+          </div>
+          <button class="button">
+            перезвоните мне
+          </button>
+        </form>
+        <div class="warning">
+          Я даю <a href="">согласие</a> на обработку персональных данных; <a href="">предоставление</a> персональных
+          данных третьим лицам и коммуникацию;
+          ознакомлен с политикой конфиденциальности
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="widget-form widget-form--white widget-form--centered" data-widget-form>
+    <div class="widget-close" data-widget-close>
+      <img src="/close.svg" alt="">
+    </div>
+    <div class="widget-form__inner">
+      <div class="widget-form__image">
+        <img src="/be-first.png" alt="">
+      </div>
+      <div class="widget-form__content">
+        <div class="widget-title">
+          Будь первым
+        </div>
+        <div class="widget-subtitle">
+          Оставьте свой номер, и мы перезвоним вам
+        </div>
+        <form action="" class="form">
+          <input class="input" type="text" placeholder="Имя*" required>
+          <input class="input" type="text" placeholder="Фамилия*" required>
+          <input class="input" type="number" placeholder="Телефон*" required>
+          <input class="input" type="email" placeholder="E-mail*" required>
+          <div class="tabs-time" data-tabs="3">
+            <div class="tabs-time__header" data-tabs-header="3">
+              <div class="control button-active" data-tabs-control="31">Перезвонить сейчас</div>
+              <div class="control" data-tabs-control="32">Выбрать время</div>
+            </div>
+            <div class="tabs-time__content" data-tabs-block="3">
+              <div class="content block-active" data-tabs-content="31"></div>
+              <div class="content mt" data-tabs-content="32">
+                <input type="number" name="masknumber" data-timepicker placeholder="00:00">
+                <input type="number" data-timepicker-number placeholder="00:00" style="display:none;">
+              </div>
+            </div>
+          </div>
+          <button class="button">
+            перезвоните мне
+          </button>
+        </form>
+        <div class="warning">
+          Я даю <a href="">согласие</a> на обработку персональных данных; <a href="">предоставление</a> персональных
+          данных третьим лицам и коммуникацию;
+          ознакомлен с политикой конфиденциальности
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://api-maps.yandex.ru/v3/?apikey=01911494-9912-4ca8-9600-345d61f5ba44&lang=ru_RU"></script>
+</body>
+</html>
